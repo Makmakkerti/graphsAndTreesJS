@@ -1,0 +1,25 @@
+{
+  "name": "graphs-trees",
+  "version": "1.0.0",
+  "description": "Graphs and Trees in depth, JavaScript version",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Graphs",
+    "Trees",
+    "JS",
+    "JavaScript",
+    "Data",
+    "Structures"
+  ],
+  "author": "Mokienko.net",
+  "license": "ISC",
+  "devDependencies": {
+    "elint": "^1.11.1",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2"
+  }
+}
