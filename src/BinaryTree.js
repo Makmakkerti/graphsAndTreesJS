@@ -24,7 +24,15 @@ myTree.yes = new BinaryTree('LeftChild');
 myTree.no = new BinaryTree('RightChild');
 myTree.no.no = new BinaryTree('LastChild');
 
+const countLeafs = (tree) => {
+  if (tree === null) return 0;
+  if (tree.yes === null && tree.no === null) return 1;
+  return (countLeafs(tree.yes) + countLeafs(tree.no));
+};
+
+console.log('countLeafs', countLeafs(myTree));
+
 // Contains check
-console.log(myTree.contains('RightChild'));
+console.log('Contains question', myTree.contains('RightChild'));
 // Traverse check
-myTree.traverse(console.log);
+myTree.traverse(console.log());
