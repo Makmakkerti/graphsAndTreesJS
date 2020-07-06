@@ -39,8 +39,8 @@ class Graph {
 }
 
 const adjList = new Graph();
-const node1 = {value: 1};
-const node2 = {value: 2};
+const node1 = { value: 1 };
+const node2 = { value: 2 };
 adjList.addNode(node1);
 adjList.addNode(node2);
 adjList.addEdge(node1, node2);
